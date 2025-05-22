@@ -1,6 +1,6 @@
 # CodeSage AI  
 
-## 🚀 CCodeSage AI
+## 🚀 CodeSage AI
 
 **CodeSage AI** is an intelligent, AI-powered platform that helps developers improve code quality, understand complex logic, debug errors, and stay updated with the latest programming insights. It combines the power of generative AI with curated developer content to deliver a seamless and productive experience.
 
