@@ -60,8 +60,8 @@ const getExplanationError = async (req, res) => {
     const searchQuery = parsedResponse.summary_title || input;
     const stackOverflowResponse = await fetch(
       `https://api.stackexchange.com/2.3/search/advanced?order=desc&sort=relevance&q=${encodeURIComponent(
-        searchQuery
-      )}&accepted=true&site=stackoverflow&key=${STACK_EXCHANGE_KEY}`
+    searchQuery
+  )}&accepted=true&site=stackoverflow`
     );
     const stackOverflowData = await stackOverflowResponse.json();
 

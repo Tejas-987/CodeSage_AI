@@ -13,6 +13,9 @@ app.use(
     origin: ["http://localhost:5173"],
   })
 );
+app.get("/", (req, res) => {
+  res.send("✅ Backend is running fine!");
+});
 app.use(express.json());
 app.use("/ai", geminiRoute);
 app.use("/articles", articleRoute);
