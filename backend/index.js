@@ -10,7 +10,7 @@ app.head("/ping", (req, res) => {
 });
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://code-sage-ai-sigma.vercel.app/"],
   })
 );
 app.get("/", (req, res) => {
